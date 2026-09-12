@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fceda3"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#997517"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fceda3" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Monogram Crest -->
+  <g transform="translate(15, 10)">
+    <!-- Outer Shield / Hex Ring -->
+    <path d="M 50 2 L 88 24 L 88 74 L 50 96 L 12 74 L 12 24 Z" stroke="url(#goldGrad)" stroke-width="2.5" fill="#14161d"/>
+    <path d="M 50 8 L 82 27 L 82 71 L 50 90 L 18 71 L 18 27 Z" stroke="url(#goldGrad)" stroke-width="1" stroke-dasharray="2 3" fill="none" opacity="0.6"/>
+    
+    <!-- Stylized J & S Intertwined -->
+    <!-- J -->
+    <path d="M 42 30 L 42 62 C 42 70, 34 72, 28 66" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <!-- S -->
+    <path d="M 68 36 C 68 30, 52 28, 48 38 C 45 44, 62 48, 62 56 C 62 66, 44 68, 38 62" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Little Crown / Diamond Accents -->
+    <circle cx="50" cy="18" r="2.5" fill="url(#goldGrad)"/>
+    <circle cx="50" cy="80" r="2" fill="url(#goldGrad)"/>
+  </g>
+  
+  <!-- Typography -->
+  <g transform="translate(130, 30)">
+    <!-- Main Title -->
+    <text x="0" y="32" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" letter-spacing="4" fill="url(#goldGrad)">
+      JS SALON
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="2" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="6" fill="#a3a8b8">
+      UNISEX <tspan fill="#d4af37">•</tspan> LUXURY <tspan fill="#d4af37">•</tspan> ANANTAPUR
+    </text>
+    
+    <!-- Fine Gold Separator Line -->
+    <line x1="0" y1="41" x2="340" y2="41" stroke="url(#goldGlow)" stroke-width="0.75" opacity="0.4"/>
+  </g>
+</svg>
